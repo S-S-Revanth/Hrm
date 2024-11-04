@@ -9,6 +9,7 @@ function Finance() {
         <h1>HRM</h1>
         <Link to='/'> <p> DashBoard</p></Link> 
           <p>Finance</p>
+          <Link to='/products'>Products</Link>
         </Grid>
         <Grid size={10}>
         <div className="card-row">
