@@ -8,7 +8,8 @@ function Finance() {
         <Grid size={2}>
         <h1>HRM</h1>
          <p> DashBoard</p>
-       <Link to='/finance'> <p>Finance</p></Link>   
+       <Link to='/finance'> <p>Finance</p></Link>  
+       <Link to='/products'>Products</Link> 
         </Grid>
         <Grid size={10}>
         <div className="card-row">
