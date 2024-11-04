@@ -23,7 +23,7 @@ function Finance() {
           <p>382</p>
         </div>
         <div className="card">
-          <h2>Revenue</h2>
+          <h2>money</h2>
           <p>$120,450</p>
         </div>
         </div>
