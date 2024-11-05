@@ -11,6 +11,7 @@ function Event() {
             <Link to='/'><p>DashBoard</p></Link>
             <Link to='/finance'><p>Finance</p></Link>
             <Link to='/product'><p>Products</p></Link>
+            <Link to='/report'><p>Report</p></Link>
             <p>Event</p>
         </Grid>
         <Grid size={10}>
