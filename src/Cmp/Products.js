@@ -10,6 +10,8 @@ function Products() {
         <Link to='/'><p>DashBoard</p></Link>
         <Link to='/finance'><p>Finance</p></Link>
         <Link to='/event'><p>Event</p></Link>
+        <Link to='/report'><p>Report</p></Link>
+        
         <p>Products</p>
         </Grid>
         <Grid size={10}>

@@ -11,6 +11,7 @@ function Finance() {
           <p>Finance</p>
           <Link to='/products'>Products</Link>
           <Link to='/event'><p>Event</p></Link>
+          <Link to='/report'><p>Report</p></Link>
         </Grid>
         <Grid size={10}>
         <div className="card-row">
