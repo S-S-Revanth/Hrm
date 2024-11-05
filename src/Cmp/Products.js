@@ -1,20 +1,20 @@
 import React from 'react'
-import {Grid} from '@mui/system'
+import { Grid } from '@mui/system'
 import { Link } from 'react-router-dom'
-function Finance() {
+function Products() {
   return (
     <div>
-      <Grid container>  
+      <Grid container>
         <Grid size={2}>
-        <h1>HRM</h1>
-        <Link to='/'> <p> DashBoard</p></Link> 
-          <p>Finance</p>
-          <Link to='/products'>Products</Link>
-          <Link to='/event'><p>Event</p></Link>
+          <h1>HRM</h1>
+        <Link to='/'><p>DashBoard</p></Link>
+        <Link to='/finance'><p>Finance</p></Link>
+        <Link to='/event'><p>Event</p></Link>
+        <p>Products</p>
         </Grid>
         <Grid size={10}>
         <div className="card-row">
-          <h1> Finance</h1>
+          <h1>Product</h1>
 
         <div className="card">
           <h2>Total Users</h2>
@@ -35,4 +35,4 @@ function Finance() {
   )
 }
 
-export default Finance
+export default Products
